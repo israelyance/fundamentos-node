@@ -34,8 +34,8 @@ async function main() {
     await hablar()
     await hablar()
     await adios(nombre)
+    console.log('Termina el proceso')
 }
 
 console.log('Empezamos el proceso')
 main()
-console.log('Termina el proceso')
